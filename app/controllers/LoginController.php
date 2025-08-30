@@ -1,6 +1,8 @@
 <?php
 
+
 namespace Controllers;
+use MVC\Router;
 
 use MVC\Router;
 

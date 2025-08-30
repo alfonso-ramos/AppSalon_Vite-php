@@ -1,16 +1,19 @@
 {
-    "name": "ponchoramos/app-salon_php_mvc_js_sass",
-    "description": "Proyecto PHP 8, MVC, SQL, SASS, Active Record",
+    "name": "poncho-ramos/app-salon",
+    "description": "PHP 8, MVC, SQL, SASS y Vite",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "MVC\\" : "./",
-            "Controllers\\" : "./app/controllers",
-            "Model\\" : "./app/models",
-            "Classes\\" : "./classes"
+            "MCV\\": "./",
+            "Model\\": "./app/models",
+            "Controllers\\": "./app/controllers"
         }
     },
-    "require": {
-        "phpmailer/phpmailer": "^6.5"
-    }
+    "authors": [
+        {
+            "name": "Alfonso Ramos",
+            "email": "alfonsoramos.1803@gmail.com"
+        }
+    ],
+    "require": {}
 }
