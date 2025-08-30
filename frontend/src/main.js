@@ -1,3 +1,3 @@
 // frontend/src/main.js
-import './scss/app.scss';
-console.log("JS cargado correctamente con Vite.");
+import '/src/css/app.css';
+console.log("JS y estilos cargados correctamente con Vite.");

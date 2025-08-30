@@ -15,6 +15,13 @@ export default defineConfig({
     sourcemap: true
   },
   server: {
-    origin: 'http://localhost:5173'
+    origin: 'http://localhost:5174',
+    hmr: {
+      host: 'localhost'
+    }
+  },
+  css: {
+    devSourcemap: true,
+    postcss: './postcss.config.js'
   }
 })
